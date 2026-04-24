@@ -19,3 +19,11 @@ To load this repository as a local plugin in Claude Code, run:
 git clone <this-repo-url>
 claude --plugin <path-to-this-directory>
 ```
+
+You need to set up the API key for Semantic Scholar search as an environment variable. For example, under `<project_root>/.claude/settings.local.json`:
+```{
+  "env": {
+    "S2_API_KEY": <your-semantic-scholar-api-key>
+  },
+}
+```

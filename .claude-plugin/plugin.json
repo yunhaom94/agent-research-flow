@@ -1,0 +1,10 @@
+{
+  "name": "agent-research-flow",
+  "description": "Human-in-the-loop research ideation, planning, and literature review workflow for researchers.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Hyjal"
+  },
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}
