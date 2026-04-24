@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf '<project-structure source=\"references/file-structure.md\">\\n'; cat \"${CLAUDE_PLUGIN_ROOT}/references/file-structure.md\"; printf '\\n</project-structure>\\n'"
+          }
+        ]
+      }
+    ]
+  }
+}
