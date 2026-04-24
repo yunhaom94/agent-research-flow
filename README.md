@@ -9,7 +9,8 @@ A Claude plugin and workspace for automating academic research workflows.
 
 ## Quick Start
 
-Check `references/Plans.md` and `references/Ideas.md` to explore current goals and test the agent skills.
+Use `develop-idea` skill to initalize a project workspace.
+Check `references/Plans.md` and `references/Ideas.md` to explore the strucuted idea development.
 
 ## Load As Claude Code Plugin
 
